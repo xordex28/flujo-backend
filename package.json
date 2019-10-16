@@ -1,0 +1,30 @@
+{
+  "name": "flujo-backend",
+  "version": "1.0.0",
+  "description": "Sistema de Flujo",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node -r esm ./server.js",
+    "start-dev": "nodemon ./server.js"
+  },
+  "author": "Oesvica C.A",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "co": "^4.6.0",
+    "cors": "^2.8.4",
+    "esm": "^3.2.25",
+    "expr-eval": "^1.2.3",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.6.5",
+    "nodemailer": "^6.3.0",
+    "rand-token": "^0.4.0",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {}
+}
