@@ -24,5 +24,6 @@ mongoose.Promise = global.Promise;
 // };
 
 module.exports = {
+    mongoose: mongoose,
     Usuario: require('../seguridad/model').Usuario
 }

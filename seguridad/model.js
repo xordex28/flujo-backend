@@ -10,8 +10,7 @@ var userSchema = new Schema({
     },
     password: {
         type: String,
-        required: true,
-        maxlength: 50
+        required: true
     },
     last_password: {
         type: String,
@@ -58,7 +57,7 @@ var userSchema = new Schema({
         type: Date,
         default: null
     },
-    token: {
+    accestoken: {
         type: String,
         default: null
     },

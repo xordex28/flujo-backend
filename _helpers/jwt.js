@@ -12,16 +12,9 @@ function jwt() {
     }).unless({
         path: [
             // Lista de rutas que no requieren Autenticación
-            '/seguridad/usuario/authenticate',
-            /^\/seguridad\/usuario\/getUser.*/,
-            /^\/seguridad\/usuario\/setUserPass\/.*/,
-            // '/seguridad/usuario/setUserPass',
-            '/sendMail',
-            '/seguridad/usuario/logout',
-            '/seguridad/usuario/isLoggedIn',
-            '/seguridad/usuario/token',
-            '/seguridad/usuario/register',
-            '/seguridad/usuario/token',
+            '/segurity/user/authenticate',
+            '/segurity/user/register',
+          
         ]
     });
 }
