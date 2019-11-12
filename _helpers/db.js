@@ -24,6 +24,10 @@ mongoose.Promise = global.Promise;
 // };
 
 module.exports = {
-    mongoose: mongoose,
-    Usuario: require('../seguridad/model').Usuario
+    Usuario: require('../seguridad/model').Usuario,
+    ClasifSolicitud: require('../seguridad/model').ClasifSolicitud,
+    TipoSolicitud: require('../seguridad/model').TipoSolicitud,
+    Solicitud: require('../seguridad/model').Solicitud,
+    Accion: require('../seguridad/model').Accion,
+    Permiso: require('../seguridad/model').Permiso,
 }
